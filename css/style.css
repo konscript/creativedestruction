@@ -130,7 +130,7 @@ html,body{
 }
 #slide2 img.socialdigits{
 	position:absolute;
-	top:650px;
+	top:550px;
 	left:-80px;
 }
 #slide2 img.yourlook{
@@ -140,7 +140,7 @@ html,body{
 }
 #slide2 img.kinento{
 	position:absolute;
-	top:800px;
+	top:600px;
 	right:20px;
 }
 #slide2 img.avenue{
@@ -173,4 +173,8 @@ html,body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.podio-webform-container {
+	display:none; 
 }
