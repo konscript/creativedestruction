@@ -87,53 +87,45 @@ html,body{
  SLIDE 2 
 *******************************/
 #slide2{
-	background-color:#005c99;
-	
+	background: url(../images/slide2/shattered.png);
 }
 #slide2 img{
-	-webkit-box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
-	border: 1px solid rgba(0,0,0,0.8)
+	
 }
-#slide2 img:first-child{
+#slide2 img.kobstaden{
 	position:absolute;
-	top: 350px;
-	left: 250px;
+	top: 250px;
+	left: 40%;
 }
-#slide2 img:nth-child(2){
+#slide2 img.rbb{
+	position:absolute;
+	top:90px;
+	left:70%;
+}
+#slide2 img.sortesokker{
+	position:absolute;
+	top:700px;
+	left:300px;
+}
+#slide2 img.socialdigits{
+	position:absolute;
+	top:650px;
+	left:-80px;
+}
+#slide2 img.yourlook{
 	position:absolute;
 	top:300px;
-	left:100px;
+	left:55%;
 }
-#slide2 img:nth-child(3){
+#slide2 img.kinento{
 	position:absolute;
-	top:600px;
-	left:300px;
+	top:800px;
+	right:20px;
 }
-#slide2 img:nth-child(4){
+#slide2 img.avenue{
 	position:absolute;
-	top:400px;
-	left:300px;
-}
-#slide2 img:nth-child(5){
-	position:absolute;
-	top:600px;
-	right:300px;
-}
-#slide2 img:nth-child(6){
-	position:absolute;
-	top:600px;
-	right:300px;
-}
-#slide2 img:nth-child(7){
-	position:absolute;
-	top:400px;
-	right:100px;
-}
-#slide2 img:nth-child(8){
-	position:absolute;
-	top:100px;
-	right:300px;
+	top:750px;
+	right:20px;
 }
 /******************************
  SLIDE 3 
