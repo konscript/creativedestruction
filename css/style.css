@@ -32,6 +32,7 @@ html,body{
 	margin: 40px 0 0 100px;
 }
 .cdlogo{
+	display: none;
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
@@ -40,14 +41,15 @@ html,body{
 .slide{
 	background-attachment: fixed;
 	width:100%;
-	height:100%;
+	min-width: 1000px;
+	height: 700px;
 	position: relative;
+	overflow: hidden;
 	box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
 .wrapper{
-	width:960px;
-	height:200px;
-	margin:0 auto;
+	width: 100%;
+	height: 700px;
 	position:relative;
 }
 .slideno{
@@ -113,53 +115,48 @@ html,body{
 #slide2 img{
 	
 }
-#slide2 img.kobstaden{
-	position:absolute;
-	top: 250px;
-	left: 40%;
-}
 #slide2 img.rbb{
 	position:absolute;
-	top:90px;
-	left:70%;
+	top: 10%;
+	right: 10%;
+}
+#slide2 img.kobstaden{
+	position:absolute;
+	top: 15%;
+	right: 35%;
+	width: 230px;
 }
 #slide2 img.sortesokker{
 	position:absolute;
-	top:700px;
-	left:300px;
+	top:35%;
+	right:5%;
 }
 #slide2 img.socialdigits{
 	position:absolute;
-	top:550px;
-	left:-80px;
+	top:40%;
+	right:40%;
 }
 #slide2 img.yourlook{
 	position:absolute;
-	top:300px;
-	left:55%;
+	top:60%;
+	right:10%;
 }
 #slide2 img.kinento{
 	position:absolute;
-	top:600px;
-	right:20px;
+	top:65%;
+	right:30%;
+	width: 250px;
 }
 #slide2 img.avenue{
 	position:absolute;
-	top:750px;
-	right:20px;
+	top:80%;
+	right:70%;
 }
 /******************************
  SLIDE 3 
 *******************************/
 #slide3{
 	background-color:#f4f4f4;
-}
-
-#slide3 .wrapper{
-	width:100%;
-	height:100%;
-	margin:0 auto;
-	position:relative;
 }
 
 /******************************
