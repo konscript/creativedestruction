@@ -118,39 +118,39 @@ html,body{
 #slide2 img.rbb{
 	position:absolute;
 	top: 10%;
-	right: 10%;
+	right: 100px;
 }
 #slide2 img.kobstaden{
 	position:absolute;
 	top: 15%;
-	right: 35%;
+	right: 350px;
 	width: 230px;
 }
 #slide2 img.sortesokker{
 	position:absolute;
 	top:35%;
-	right:5%;
+	right:50px;
 }
 #slide2 img.socialdigits{
 	position:absolute;
 	top:40%;
-	right:40%;
+	right:400px;
 }
 #slide2 img.yourlook{
 	position:absolute;
 	top:60%;
-	right:10%;
+	right:100px;
 }
 #slide2 img.kinento{
 	position:absolute;
 	top:65%;
-	right:30%;
+	right:340px;
 	width: 250px;
 }
 #slide2 img.avenue{
 	position:absolute;
-	top:80%;
-	right:70%;
+	top:70%;
+	right:700px;
 }
 /******************************
  SLIDE 3 
