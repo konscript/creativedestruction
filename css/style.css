@@ -173,5 +173,5 @@ html,body{
 }
 
 .podio-webform-container {
-	display:none; 
+	width: 600px; 
 }
