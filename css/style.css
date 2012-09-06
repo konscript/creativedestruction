@@ -133,8 +133,8 @@ html,body{
 }
 #slide2 img.socialdigits{
 	position:absolute;
-	top:40%;
-	right:40%;
+	top:45%;
+	right:30%;
 }
 #slide2 img.yourlook{
 	position:absolute;
@@ -143,14 +143,19 @@ html,body{
 }
 #slide2 img.kinento{
 	position:absolute;
-	top:65%;
-	right:35%;
+	top:70%;
+	right:40%;
 	width: 250px;
 }
 #slide2 img.avenue{
 	position:absolute;
 	top:80%;
-	right:60%;
+	right:65%;
+}
+#slide2 img.beatpeople{
+	position:absolute;
+	top:75%;
+	right:22%;
 }
 /******************************
  SLIDE 3 
