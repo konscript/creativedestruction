@@ -222,7 +222,7 @@ html,body{
 	background-color:#201f1f;
 	background-image:url(../images/slide5/shattered.jpg);
 	background-repeat: repeat;
-	height: 450px;
+	height: 500px;
 	z-index: 99;
 }
 
@@ -245,6 +245,12 @@ html,body{
 			color: #585858;
 			font-weight: 100;
 			line-height: 20px;
+		}
+
+		#slide5 .slidecontent div.small a {
+			color: #585858;
+			font-weight: 400;
+			text-decoration: none;
 		}
 
 /******************************
