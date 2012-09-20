@@ -1,0 +1,267 @@
+@charset "utf-8";
+/******************************
+ * Creative Destruction 2012, bitch
+*******************************/
+
+html,body{
+	font-family: 'Oswald', sans-serif;
+	width:100%;
+	height:100%;
+}
+
+/******************************
+ * Side navigation
+*******************************/
+
+.navigation{
+	position:fixed;
+	z-index:200;
+	top:50px;
+}
+	.navigation li{
+		color:#fff;
+		display:block;
+		padding: 0 10px;
+		line-height:36px;
+		margin-bottom:2px;
+		font-weight:300;
+		-webkit-transition: all .2s ease-in-out;
+		border-bottom:1px solid black;
+		text-align:left;
+		width:53px;
+		background:rgba(0,0,0,0.8);
+		font-size:18px;	
+	}
+	.navigation li:hover,.active{
+		cursor:pointer;
+		width:70px!important;
+	}
+
+/******************************
+ * Slides
+*******************************/
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	min-width: 1150px;
+	height: 700px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.4);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.slide-full {
+	height: 100%;
+}
+	.wrapper{
+		width: 100%;
+		height: 700px;
+		position:relative;
+	}
+	.slideno{
+		position:absolute;
+		top:20px;
+		left:100px;
+		font-size:100px;
+		font-weight:bold;
+		text-transform: uppercase;
+		color:rgba(0,0,0,0.8);
+	}
+	.slidecontent {
+		position:absolute;
+		top:180px;
+		left:100px;
+		color:rgba(0,0,0,0.8);
+		font-size: 30px;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;	
+	}
+		.slidecontent.box  {
+			background:rgba(255,255,255,0.8);
+			padding: 25px;
+		}
+	.button{
+		display:block;
+		width:50px;
+		height:50px;
+		position:absolute;
+		bottom:0px;
+		left:50%;
+		background-color:#333333;
+		background-image:url(../images/arrow.png);
+	}
+	.button:hover{
+		background-color:#494949;
+		cursor:pointer;
+	}
+
+/******************************
+ * SLIDE 1 - splash
+*******************************/
+
+#slide1{
+	background-color:#f5f1ec;
+	background-image:url(../images/slide1/cd-1sal.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 100;
+}
+
+	.cdlogotype{
+		margin: 40px 0 0 100px;
+	}
+	.cdlogo{
+		display: none;
+		position: absolute;
+		right: 20px;
+		bottom: 20px;
+		margin: 20px 0 0 20px;
+	}
+
+	#slide1 .slidecontent {
+		position:absolute;
+		top:250px;
+	}
+
+/******************************
+ SLIDE 2 - startups
+*******************************/
+
+#slide2{
+	background-color: #f5f1ec;
+	background-image: url(../images/slide2/woody.png);
+	z-index: 99;
+}
+	#slide2 img{
+		
+	}
+	#slide2 img.rbb{
+		position:absolute;
+		top: 10%;
+		right: 10%;
+	}
+	#slide2 img.kobstaden{
+		position:absolute;
+		top: 15%;
+		right: 35%;
+		width: 230px;
+	}
+	#slide2 img.sortesokker{
+		position:absolute;
+		top:35%;
+		right:5%;
+	}
+	#slide2 img.socialdigits{
+		position:absolute;
+		top:45%;
+		right:30%;
+	}
+	#slide2 img.yourlook{
+		position:absolute;
+		top:60%;
+		right:10%;
+	}
+	#slide2 img.kinento{
+		position:absolute;
+		top:70%;
+		right:40%;
+		width: 250px;
+	}
+	#slide2 img.avenue{
+		position:absolute;
+		top:80%;
+		right:65%;
+	}
+	#slide2 img.beatpeople{
+		position:absolute;
+		top:75%;
+		right:22%;
+	}
+	#slide2 img.wouworld{
+		position:absolute;
+		top:51%;
+		right:63%;
+		width: 220px;
+	}
+
+/******************************
+ SLIDE 3 - find us
+*******************************/
+
+#slide3{
+	background-color:#f5f1ec;
+	z-index: 98;
+}
+
+/******************************
+ SLIDE 4 - contact
+*******************************/
+
+#slide4{
+	background-color:#f5f1ec;
+	background-image:url(../images/slide4/cd-lounge.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 97;
+}
+
+	.podio-webform-container {
+		width: 600px; 
+	}
+
+/******************************
+ SLIDE 5 - break
+*******************************/
+
+#slide5{
+	background-color:#201f1f;
+	background-image:url(../images/slide5/shattered.jpg);
+	background-repeat: repeat;
+	height: 450px;
+	z-index: 99;
+}
+
+	#slide5 .slidecontent {
+		top:180px;
+		color: #ffffff;
+	}
+		#slide5 .slidecontent .podio-logo {
+			height: 27px;
+			padding-left: 15px;
+		}
+
+		#slide5 .slidecontent a {
+			color: #ffffff;
+		}
+
+		#slide5 .slidecontent div.small {
+			margin-top: 15px;
+			font-size: 14px;
+			color: #585858;
+			font-weight: 100;
+			line-height: 20px;
+		}
+
+/******************************
+ SLIDE 6 - house
+*******************************/
+
+#slide6{
+	background-color:#f4f4f4;
+	background-image:url(../images/slide6/cd-facade.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	z-index: 96;
+}
+
+	#slide6 .slidecontent {
+		top:45px;
+	}
